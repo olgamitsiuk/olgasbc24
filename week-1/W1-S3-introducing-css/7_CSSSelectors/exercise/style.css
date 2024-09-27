@@ -1,0 +1,51 @@
+/* Universal Selector targeting all elements on the page */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+
+/* Element Selector targeting all <h1> elements */
+h1 {
+    color: blue;
+}
+
+/* Element Selector targeting all <p> elements */
+p {
+    margin: 10px 0;
+}
+
+/* Element Selector targeting all <ul> elements */
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Element Selector targeting all <li> elements */
+li {
+    margin: 5px 0;
+}
+
+/* Element Selector targeting all <a> elements */
+a {
+    color: green;
+}
+
+/* Class Selector targeting elements with class 'highlight' */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Class Selector targeting elements with class 'special' */
+.special {
+    color: purple;
+}
+
+/* ID Selector targeting element with id 'uniqueDiv' */
+#uniqueDiv {
+    color: red;
+    font-size: 20px;
+}

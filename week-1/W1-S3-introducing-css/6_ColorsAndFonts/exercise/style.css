@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Exercise Box Styles */
+.exercise-box {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: #ffffff;
+    /* Default background color */
+    font-family: Arial, sans-serif;
+    /* Default font */
+}
+
+.exercise-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.box1 {
+    font-family: Arial;
+    background-color: lightblue;
+}
+.box2 {
+    font-family: 'Times New Roman';
+    background-color: lightgreen;
+}
+.box3 {
+    font-family: Verdana;
+    background-color: lightcoral;
+}
+.box4 {
+    font-family: Courier New;
+    background-color: lightgoldenrodyellow;
+}
+.box5 {
+    font-family: Georgia;
+    background-color: lightsalmon;
+}
+.box6 {
+    font-family: Comic Sans MS;
+    background-color: lightpink;
+}
