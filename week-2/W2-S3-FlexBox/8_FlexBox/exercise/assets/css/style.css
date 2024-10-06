@@ -16,8 +16,9 @@ header {
 /* Flexbox navigation */
 .navbar {
     /* TODO: explain the purpose of the following properties */
+    /* defines a flex container */
     display: flex;
-
+    /* defines the alignment along the main axis */
     justify-content: center;
     background-color: #007BFF;
     padding: 10px;
@@ -39,10 +40,13 @@ header {
 .content {
     
     /* TODO: explain the purpose of the following properties */
+    /* allow the items to wrap as needed */
     flex-wrap: wrap;
+    /* defines a flex container */
     display: flex;
-
+    /* defines the alignment along the main axis */
     justify-content: space-around;
+    /* defines the alignment along the cross axis */
     align-items: center;
     margin: 20px auto;
     padding: 20px;
@@ -60,6 +64,10 @@ header {
     border-radius: 5px;
 
     /* TODO: explain the purpose of the following properties */
+    /*  shorthand for flex-grow, flex-shrink and flex-basis */
+    /* flex-grow defines the ability for a flex item to grow if necessary */
+    /* flex-shrink defines the ability for a flex item to shrink if necessary. */
+    /* flex-basis  defines the default size of an element before the remaining space is distributed */
     flex: 1 1 200px;
 }
 

@@ -94,17 +94,17 @@ footer {
 /* Get in Touch (incorrect position) */
 .get-in-touch {
     /* TODO need to fix this to bottom and right */
-    /* Incorrect position */
     position: fixed;
     bottom: 20px;
     right: 20px;
-    /* transform: translate(-50%, -50%);*/
-    border: 1px solid black;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    
 }
 
 .get-in-touch img {
     width: 150px;
-    height: auto;
+    height: 100%;
 }
 
 /* TASK 1: Make the navigation sticky at the top */
